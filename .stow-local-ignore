@@ -1,0 +1,12 @@
+# ~/repo/.stow-local-ignore
+
+^/.git.*
+
+.*\.swp
+.*\.bak
+.*\.png
+.*\.md
+.*\.sh
+
+LICENSE
+COPYING
