@@ -1,0 +1,19 @@
+// ~/.config/rofi/config.rasi
+
+// Include layout
+@import "~/.config/rofi/layout.rasi"
+
+configuration {
+    drun-display-format: "{icon} {name}";
+    font: "JetBrainsMono 12";
+    icon-theme: "Papirus";
+    
+    sidebar-mode: false;
+    modi: "run,drun";
+    show-icons: true;
+    
+    display-run: "Run";
+    display-drun: "Apps";
+    display-emoji: "Emoji";
+    display-window: "Window";
+}

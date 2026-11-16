@@ -1,0 +1,77 @@
+// ~/.config/rofi/layout.rasi
+
+// Disable theme
+@theme "/dev/null"
+
+*{
+    // Color
+    background-color: transparent;
+    text-color: #EBDBB2;
+}
+
+window {
+    border: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    
+    // Color
+    border-color: #FC4E03;
+    background-color: #282828E6;
+}
+
+inputbar {
+    padding: 8px;
+    border-radius: 5px;
+    children: [prompt, entry];
+    
+    // Color
+    background-color: #282828E6;
+}
+
+prompt {
+    border-radius: 5px;
+    margin: 0 10px 0 5px;
+    
+    // Color
+    text-color: #EBDBB2;
+}
+
+entry {
+    placeholder: "Search";
+    margin: 0 10px 0 5px;
+    
+    // Color
+    text-color: #EBDBB2;
+}
+
+listview {
+    lines: 7;
+    columns: 1;
+    scrollbar: false;
+    fixed-height: true;
+    
+    // Color
+    text-color: #EBDBB2;
+}
+
+element {
+    padding: 8px;
+    border-radius: 5px;
+    
+    // Color
+    text-color: #EBDBB2;
+    border-color: #282828E6;
+}
+
+element selected {
+    border: 0 0 0;
+    
+    // Color
+    text-color: #EBDBB2;
+    background-color: #4D4A4AE6;
+}
+
+element-icon {
+    size: 24px;
+    margin: 0 10px 0 0;
+}

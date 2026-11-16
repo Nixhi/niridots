@@ -1,0 +1,20 @@
+// ~/.config/niri/Utils.kdl
+
+/* --- General --- */
+
+// Wallpapers
+spawn-at-startup "awww-daemon"
+
+// Idle daemon
+spawn-at-startup "swayidle"
+
+// Panel (shell)
+spawn-at-startup "ashell"
+
+/* --- Other --- */
+
+// Clipboard
+spawn-at-startup "clipse" "-listen"
+
+// Wallpapers
+spawn-sh-at-startup "awww img ~/Pictures/Wallpapers/NightCity.jpg"

@@ -1,0 +1,8 @@
+# ~/.config/swaylock/config
+
+## Theme
+color=EBDBB2
+
+## Geleral
+ignore-empty-password
+show-failed-attemps

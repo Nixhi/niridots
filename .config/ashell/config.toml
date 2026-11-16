@@ -1,0 +1,42 @@
+# ~/.config/ashell/config.toml
+
+[appearance]
+workspace_colors = ['#EBDBB2']
+font_name = "JetBrains Mono"
+background_color = "#282828"
+text_color = "#EBDBB2"
+scale_factor = 1.1
+
+[appearance.opacity]
+default = 1.0
+bar = 0.9
+
+[appearance.bar]
+surface = "solid"
+radius = "lg"
+padding = 3
+margin = 1
+
+[modules]
+left = [['Menu', 'Workspaces']]
+center = ['Tempo']
+right = ['Tray', ['Settings', 'MediaPlayer', 'Notifications']]
+
+[[CustomModule]]
+name = "Menu"
+type = "Button"
+icon = "\uf31f"
+command = "rofi -show drun"
+
+[media_player]
+indicator_format = "Icon"
+
+[settings]
+hibernate_cmd = "loginctl hibernate"
+shutdown_cmd = "loginctl poweroff"
+suspend_cmd = "loginctl suspend"
+reboot_cmd = "loginctl reboot"
+lock_cmd = "swaylock --daemonize"
+
+[tempo]
+clock_format = "%d.%m.%Y %H:%M"

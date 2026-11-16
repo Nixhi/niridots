@@ -1,0 +1,17 @@
+# ~/.config/alacritty/alacritty.toml
+
+[general]
+import = ['~/.config/alacritty/gruvbox.toml']
+live_config_reload = true
+
+[cursor]
+style = {shape = 'Block', blinking = 'Always'}
+
+[window]
+opacity = 0.9
+blur = false
+
+[font]
+normal.family = "JetBrains Mono"
+builtin_box_drawing = true
+size = 12

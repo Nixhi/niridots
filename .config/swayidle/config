@@ -1,0 +1,8 @@
+# ~/.config/swayidle/config
+
+## Timeout
+timeout 300 'swaylock --daemonize'
+timeout 900 'loginctl suspend'
+
+## Instant
+before-sleep 'swaylock --daemonize'
