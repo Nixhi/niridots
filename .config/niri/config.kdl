@@ -203,4 +203,4 @@ binds {
 screenshot-path "~/Pictures/Screenshots/Screenshot-%Y-%m-%d-%H-%M-%S.png"
 
 // Wallpapers
-spawn-sh-at-startup "swaybg ~/.config/wallpapers/NightCity.jpg"
+spawn-sh-at-startup "swaybg -i ~/.config/wallpapers/NightCity.jpg"
