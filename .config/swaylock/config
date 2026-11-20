@@ -1,8 +1,43 @@
 # ~/.config/swaylock/config
 
 ## Theme
-color=EBDBB2
+color=282828
+separator-color=282828
 
-## Geleral
+text-color=EBDBB2
+text-ver-color=EBDBB2
+text-wrong-color=FB4934
+text-clear-color=EBDBB2
+text-caps-lock-color=EBDBB2
+
+ring-color=504945
+ring-ver-color=EBDBB2
+ring-wrong-color=FB4934
+ring-clear-color=EBDBB2
+ring-caps-lock-color=FABD2F
+
+line-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+line-clear-color=00000000
+line-caps-lock-color=00000000
+
+inside-color=282828
+inside-ver-color=282828
+inside-wrong-color=282828
+inside-clear-color=282828
+inside-caps-lock-color=282828
+
+layout-bg-color=282828
+layout-text-color=EBDBB2
+layout-border-color=282828
+
+bs-hl-color=FB4934
+caps-lock-bs-hl-color=FB4934
+
+key-hl-color=EBDBB2
+caps-lock-key-hl-color=EBDBB2
+
+## General
 ignore-empty-password
-show-failed-attemps
+show-failed-attempts
