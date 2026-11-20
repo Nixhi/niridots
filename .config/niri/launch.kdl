@@ -2,9 +2,6 @@
 
 /* --- General --- */
 
-// Wallpapers
-spawn-at-startup "awww-daemon"
-
 // Idle daemon
 spawn-at-startup "swayidle"
 
@@ -15,6 +12,3 @@ spawn-at-startup "ashell"
 
 // Clipboard
 spawn-at-startup "clipse" "-listen"
-
-// Wallpapers
-spawn-sh-at-startup "awww img ~/Pictures/Wallpapers/NightCity.jpg"

@@ -76,16 +76,16 @@ binds {
     /* Programs */
     
     // Terminal
-    Mod+T repeat=false hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
-    
-    // Launcher
-    Mod+E repeat=false hotkey-overlay-title="Run an Launcher: rofi" { spawn-sh "rofi -show drun"; }
-    
-    // Emoji
-    Mod+Period repeat=false hotkey-overlay-title="Emoji: rofi-emoji" { spawn-sh "rofi -show emoji"; }
+    Mod+T repeat=false hotkey-overlay-title="Open a Terminal" { spawn "foot"; }
     
     // Lock Screen
-    Mod+L repeat=false hotkey-overlay-title="Lock the Desktop: swaylock" { spawn "swaylock"; }
+    Mod+L repeat=false hotkey-overlay-title="Lock the Desktop" { spawn "swaylock"; }
+    
+    // Launcher
+    Mod+E repeat=false hotkey-overlay-title="Run an Launcher" { spawn-sh "rofi -show drun"; }
+    
+    // Emoji
+    Mod+Period repeat=false hotkey-overlay-title="Open emoji panel" { spawn-sh "rofi -show emoji"; }
     
     
     /* Service */
@@ -201,3 +201,6 @@ binds {
 
 // Screenshot path
 screenshot-path "~/Pictures/Screenshots/Screenshot-%Y-%m-%d-%H-%M-%S.png"
+
+// Wallpapers
+spawn-sh-at-startup "swaybg ~/.config/wallpapers/NightCity.jpg"
